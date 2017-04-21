@@ -1,0 +1,16 @@
+﻿@model GummiBearKingdom.Models.Product
+
+@{
+    ViewData["Title"] = "Product - Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+<hr />
+Product Name: @Html.DisplayFor(model => model.ProductName)
+
+<p>@Html.DisplayFor(model => model.ProductCost)</p>
+
+<p>@Html.DisplayFor(model => model.ProductCountry)</p>
+
+<p>@Html.ActionLink("Back to list", "Index")</p>

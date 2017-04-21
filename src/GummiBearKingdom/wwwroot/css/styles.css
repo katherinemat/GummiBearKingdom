@@ -1,0 +1,123 @@
+﻿@keyframes color-change {
+  0% {
+    background-color: #ff6e51;
+  }
+  10% {
+    background-color: #ff6e51;
+  }
+  20% {
+    background-color: #fcb859;
+  }
+  30% {
+    background-color: #fcc035;
+  }
+  40% {
+    background-color: #5ac9fc;
+  }
+  50% {
+    background-color: #515fff;
+  }
+  60% {
+    background-color: #defc58;
+  }
+  70% {
+    background-color: #1c17c1;
+  }
+  80% {
+    background-color: #b258fc;
+  }
+  90% {
+    background-color: #fc58cd;
+  }
+  100% {
+    background-color: #fc5858;
+  }
+}
+
+body {
+  background-color: #b258fc;
+}
+
+.home-background {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  animation: color-change 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: step-start;
+}
+
+.home-content {
+  display: table-cell;
+  vertical-align: middle;
+  height: 900px;
+}
+
+.inner {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: black;
+  color: white;
+}
+
+#title {
+  line-height: 20px;
+  margin: 2px 0px 50px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#sub-title {
+  margin: 0px 0px 20px 150px;
+  width: 400px;
+  font-size: 70px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#last-title {
+  margin: 0px 0px 20px 150px;
+  width: 400px;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  height: 40px;
+  background-color: orange;
+  margin: 0px 0px 100px 100px;
+  font-family: 'Oswald', sans-serif;
+}
+
+button a {
+    color: white;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.row {
+  margin: 0px 30px 0px 10px;
+}
+
+.col-xs-4 {
+  width: 30%;
+  margin: 0px 0px 0px 30px;
+  height: 240px;
+  background-color: red;
+}
+
+#column-one {
+  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8ZNuykhZS6eJpmYnG3ar5Th6XDg9mk-XNmvxJMJua4v7NPFCBNA");
+  background-size: cover;
+}
+
+#column-two {
+  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRDJdeiUA7oL-V66vI5IS3YzRI3pa8zIVysH36yBx_I2-jxkckI");
+  background-size: cover;
+}
+
+#column-three {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPyX0ugnZDEZo_MvccmEUGdmvyXDAHpgQmwALS_7X_g7zq-5O52w");
+  background-size: cover;
+}
