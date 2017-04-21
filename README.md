@@ -1,8 +1,8 @@
-# _Contributions_
+# Gummi Bear Kingdom
 
-#### _Track the political contributions by company and create portfolio of tracked stocks, 4.13.17_
+#### _Sell the best-selling international candies, 4.21.17_
 
-#### By _**Caitlin Hines, Katy Daviscourt, Kaz Matthews, and Nicole Sanders**_
+#### By _**Kaz Matthews**_
 
 ## Description
 
