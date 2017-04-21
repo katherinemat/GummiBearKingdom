@@ -6,7 +6,7 @@
 
 ## Description
 
-_This application mimics the admin view of a website that sells candy. Users can add, delete, update, and view the details of each product sold._
+_This application mimics the admin view of a website that sells candy. Users can add, delete, update, and view the details of each product sold. The design of the index page is meant to mimic the following page: https://www.awwwards.com/sites/adaptable-4_
 
 ## Setup/Installation Requirements
 
